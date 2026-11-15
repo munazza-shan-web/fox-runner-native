@@ -1,0 +1,6 @@
+Copy these into your existing fox_runner_native folder and choose "Replace":
+  lib\main.dart   pubspec.yaml   assets\ (whole folder)
+Then run:
+  flutter pub get
+  dart run flutter_launcher_icons
+  flutter run -d chrome

@@ -1,0 +1,30 @@
+name: fox_runner
+description: Fox Forest Runner - a native Flutter endless runner.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  web:
+    generate: true
+  windows:
+    generate: true
+  image_path: "assets/icons/icon.png"
+  remove_alpha_ios: true
